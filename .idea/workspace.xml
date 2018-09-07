@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7c3d5c-8fb1-4f97-a171-fc3d513380c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Stock_GP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stock_Plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Quant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Quant.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock_Chart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Chart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stock_Plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Stock_GP.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stock_GP.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stock_GP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="208">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -29,9 +29,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stock_Plot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Stock_Plot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stock_Plot.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#34#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -44,12 +51,14 @@
       <list>
         <option value="$PROJECT_DIR$/Stock_Chart.py" />
         <option value="$PROJECT_DIR$/Stock_GP.py" />
+        <option value="$PROJECT_DIR$/Stock_Plot.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1350" />
-    <option name="width" value="1405" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1354" />
+    <option name="y" value="-24" />
+    <option name="width" value="1929" />
     <option name="height" value="1029" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -68,10 +77,6 @@
               <item name="Quant" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quant" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Quant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -79,8 +84,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/envs/Quant/conda-meta" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,7 +99,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Quandl_Playground">
+    <configuration name="Quandl_Playground" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Quandl_Playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Stock_Chart" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quant" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,8 +136,53 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Stock_GP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock_GP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Stock_Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock_Plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Stock_Chart" />
+      <item itemvalue="Python.Stock_GP" />
+      <item itemvalue="Python.Stock_Plot" />
+      <item itemvalue="Python.Quandl_Playground" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Quandl_Playground" />
+        <item itemvalue="Python.Stock_Plot" />
+        <item itemvalue="Python.Stock_GP" />
         <item itemvalue="Python.Stock_Chart" />
       </list>
     </recent_temporary>
@@ -133,14 +201,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1350" y="0" width="1405" height="1029" extended-state="0" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1850252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2140625" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3391685" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33900106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -183,11 +252,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Quant" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Stock_Chart.py">
+    <entry file="file://$PROJECT_DIR$/Stock_GP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="130">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -195,24 +269,50 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Stock_Plot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock_Chart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="25" selection-end-line="182" selection-end-column="10" />
+        <state relative-caret-position="39">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#34#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Stock_GP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        <state relative-caret-position="130">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock_Plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock_Chart.py" />
+    <entry file="file://$PROJECT_DIR$/Stock_Chart.py" />
+    <entry file="file://$PROJECT_DIR$/Stock_GP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock_Plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
           </folding>
         </state>
       </provider>

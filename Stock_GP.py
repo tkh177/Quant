@@ -50,7 +50,6 @@ def matern(v_value, sigma_matern, length_matern, x1, x2):  # there are only two 
                 c[i, j] = (sigma_matern ** 2) * coefficient_term * exp_term
     return c
 
-#dskjfvsjfoslmf
 
 def mu_post(x_next, c_auto, c_cross, mismatch, p_mean):  # Posterior Mean
     if c_cross.shape[1] != c_auto.shape[1]:  # Check that the dimensions are consistent

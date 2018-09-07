@@ -1,6 +1,5 @@
 import quandl
 
-data = quandl.get('NSE/OIL')
+data = quandl.get("NSE/OIL")
 
-data.head()
-
+print(data.head())

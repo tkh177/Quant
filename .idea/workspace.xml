@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Google_Finance_Playground.py" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7c3d5c-8fb1-4f97-a171-fc3d513380c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Google_Finance_Playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yahoo_Finance_Playground.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Google_Finance_Playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Google_Finance_Playground.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quandl_Playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quandl_Playground.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,20 +43,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quandl_Playground.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Quandl_Playground.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Quandl_Playground.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="169">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Google_Finance_Playground.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Google_Finance_Playground.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google_Finance_Playground.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="182">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Yahoo_Finance_Playground.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Yahoo_Finance_Playground.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="41" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +87,9 @@
         <option value="$PROJECT_DIR$/Stock_Chart.py" />
         <option value="$PROJECT_DIR$/Stock_GP.py" />
         <option value="$PROJECT_DIR$/Stock_Plot.py" />
-        <option value="$PROJECT_DIR$/Quandl_Playground.py" />
         <option value="$PROJECT_DIR$/Google_Finance_Playground.py" />
+        <option value="$PROJECT_DIR$/Yahoo_Finance_Playground.py" />
+        <option value="$PROJECT_DIR$/Quandl_Playground.py" />
       </list>
     </option>
   </component>
@@ -117,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Google_Finance_Playground">
+  <component name="RunManager" selected="Python.Quandl_Playground">
     <configuration name="Google_Finance_Playground" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quant" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,24 +169,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Quandl_Playground.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Stock_Chart" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Quant" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock_Chart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,20 +210,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Yahoo_Finance_Playground" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yahoo_Finance_Playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Stock_Chart" />
       <item itemvalue="Python.Stock_GP" />
       <item itemvalue="Python.Stock_Plot" />
       <item itemvalue="Python.Quandl_Playground" />
       <item itemvalue="Python.Google_Finance_Playground" />
+      <item itemvalue="Python.Yahoo_Finance_Playground" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Google_Finance_Playground" />
         <item itemvalue="Python.Quandl_Playground" />
+        <item itemvalue="Python.Yahoo_Finance_Playground" />
+        <item itemvalue="Python.Google_Finance_Playground" />
         <item itemvalue="Python.Stock_Plot" />
         <item itemvalue="Python.Stock_GP" />
-        <item itemvalue="Python.Stock_Chart" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +317,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -350,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Quandl_Playground.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Stock_Plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -369,8 +382,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Google_Finance_Playground.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="182">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo_Finance_Playground.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Quandl_Playground.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
